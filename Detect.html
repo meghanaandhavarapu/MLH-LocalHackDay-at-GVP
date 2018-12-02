@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>IMAGE ANNOTATION</title>
+  <script type="text/javascript" src="https://sdk.clarifai.com/js/clarifai-latest.js"></script>
+  <script type="text/javascript" src="1.js">
+  </script>
+<style>
+.1{
+background-color:black;
+width:50px;
+height:50px;
+border:1px;
+}
+.2{
+background-color:red;
+width:50px;
+height:50px;
+border:1px;
+}
+</style>
+</head>
+<body>
+<center>
+<br>
+<br>
+  <div style="color:red;font-size:40px;" class="1"><b>IMAGE</b></div> 
+  <div style="color:black;font-size:40px;" class="2"><b>ANNOTATION</b></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="font-size:20px;"> ENTER ANY IMAGE URL</p> 
+  <input type="text" class="image">
+  <button type="button" onclick="detect()" name="button">Submit</button>
+  <ul class="ingredients">
+  </ul>
+</center>
+</body>
+</html>
